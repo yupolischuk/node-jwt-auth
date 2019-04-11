@@ -1,0 +1,12 @@
+{
+  "test": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/NodeJWTExampleTest",
+    "JWT_SECRET": "abc123TestReplace"
+  },
+  "development": {
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/NodeJWTExample",
+    "JWT_SECRET": "abc123Replace"
+  }
+}
